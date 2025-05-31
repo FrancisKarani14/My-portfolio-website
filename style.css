@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --BGCOLOR:#080b0f9d;
+    --NAVCOLOR:grey;
+    --TEXTCOLOR:white;
+}
+nav{
+    background-color: var(--NAVCOLOR);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    width: 100vw;
+}
+.navigation{
+    display: flex;
+    gap: 40px;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--TEXTCOLOR);
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+a:hover{
+    color: red;
+}
+.logo{
+    font-size: 2rem;
+}
+.Francis{
+    color: rgb(253, 216, 2);
+}
+.Karani{
+    color: blue;
+}
+.overlay{
+    background-image: linear-gradient(var(--BGCOLOR), var(--BGCOLOR)), url(./assets/karani.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home p{
+    color: var(--TEXTCOLOR);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+button{
+    text-align: center;
+}
+.about{
+    display: flex;
+}
+.info{
+    background-color: rgba(128, 128, 128, 0.733);
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about p{
+    font-size: 2rem;
+    padding-top: 30px;
+}
