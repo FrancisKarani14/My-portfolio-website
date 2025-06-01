@@ -20,6 +20,7 @@ nav{
     position: fixed;
     width: 100vw;
     height: 50px;
+    z-index: 1;
 }
 .navigation{
     display: flex;
@@ -201,6 +202,7 @@ h3{
     width: 50%;
     height: 75%;
     background-color: red;
+    cursor: pointer;
 }
 
 
