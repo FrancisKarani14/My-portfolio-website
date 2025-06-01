@@ -13,15 +13,15 @@
             <p><a href="#home">home</a></p>
             <l><a href="#aboutme"> About Me</a></l>
             <p><a href="#services">services</a></p>
-            <p><a href="#project">Projects</a></p>
+            <p><a href="#projects">Projects</a></p>
             <p><a href="#contacts">Contact Me</a></p>
             
         </div>
     </nav>
     <section class="overlay">
         <div class="home" id="home">
-            <p> <span class="Francis">Hi, I am Francis Karani,</span> <span>a frontend software developer!</span> </p>
-                <button>Contact</button>  
+            <p> <span class="Francis">Hi, I am Francis Karani,</span> <span class="Karani">a frontend software developer!</span> </p>
+                <button style="height: 40px" >Contact</button>  
         </div>
         
        
@@ -52,7 +52,7 @@
         </div>
     </section>
 </div>
-    <h2>My Projects</h2>
+    <h2 id="projects">My Projects</h2>
     <section id="project">
         <div class="proj">
             <img src="./assets/proj1.jpg" alt="website image">
@@ -85,21 +85,26 @@
     </div>
 
     </section>
-    <div class="formfield">
-        <div class="inputfield">
+    <div class="formfield" id="contacts">
+        <div class="textme">
+            <h1>Contact me</h1>
         <form action="">
+        <div class="inputfield">
+        
         <label for="">Name</label>
         <input type="text" placeholder="John Doe">
     </div>
     <div class="inputfield">
         <form action="">
-        <label for="">Name</label>
+        <label for="">Email</label>
         <input type="email" placeholder="email@gmail.com">
     </div>
     <div class="inputfield">
         <form action="">
-        <textarea name="message" id="message" placeholder="Type the description of your project "></textarea>
+        <textarea name="message" id="message" placeholder="Type the description of your project "></textarea><br>
+        <button>send message</button>
     </div>
+</div>
     </form>
     </div>
     

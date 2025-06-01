@@ -8,8 +8,8 @@ html{
 }
 :root{
     --BGCOLOR:#080b0f9d;
-    --NAVCOLOR:grey;
-    --TEXTCOLOR:white;
+    --NAVCOLOR:antiquewhite;
+    --TEXTCOLOR:black;
 }
 nav{
     background-color: var(--NAVCOLOR);
@@ -42,10 +42,10 @@ a:hover{
     font-size: 2rem;
 }
 .Francis{
-    color: rgb(253, 216, 2);
+    color: rgb(253, 2, 199);
 }
 .Karani{
-    color: blue;
+    color: rgb(255, 0, 43);
 }
 .overlay{
     background-image: linear-gradient(var(--BGCOLOR), var(--BGCOLOR)), url(./assets/karani.jpeg);
@@ -56,14 +56,25 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.home {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+    /* Optional: Add a slight delay if desired */
+    animation-delay: 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
 .home p{
     color: var(--TEXTCOLOR);
     font-size: 2.5rem;
     font-weight: bold;
 }
-button{
-    text-align: center;
-}
+
 .about{
     display: flex;
     height: 100vh;
@@ -75,7 +86,7 @@ h1{
     font-size: 2rem;
 }
 .info{
-    background-color: rgba(128, 128, 128, 0.733);
+    background-color: var(--NAVCOLOR);
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -145,4 +156,44 @@ h3{
     height: auto;
     border-radius: 5px;
   }
-  
+  .formfield{
+    height: 60vh;
+    text-align: center;
+    background-color: antiquewhite;
+  }
+  .textme{
+    background-color: rgb(245, 9, 233);
+    width: 40vw;
+    margin-left: 30%;
+    height: 90%;
+    box-shadow: 10px 10px 25px;
+    margin-top: 30px;
+  }
+  label{
+    font-size: 1.6rem;
+  }
+  .inputfield{
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  input{
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+  }
+  textarea{
+    width: 70%;
+    height: 10vh;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  button{
+    text-align: center;
+    width: 50%;
+    height: 75%;
+    background-color: red;
+}
+
+
+ 
