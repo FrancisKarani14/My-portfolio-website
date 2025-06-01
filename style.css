@@ -79,9 +79,11 @@ button{
 }
 .services{
     display: flex;
+    /* flex-wrap: wrap; */
     gap: 30px;
     margin-left: 30px;
     margin-right: 30px;
+
 }
 h2{
     text-align: center;
@@ -92,12 +94,24 @@ h3{
     font-size: 1.5rem;
 }
 .offer{
-    height: 40%;
+    /* height: 60vh; */
     /* border: black solid 1px; */
     text-align: center;
     box-shadow: 10px 10px 25px;
     background-color: rgba(128, 128, 128, 0.171);
+    align-items: center;
 }
 .offer p{
     font-size: 1.3rem;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(2, 350px);
+    gap: 90px;
+    
+}
+.proj{
+    margin-left: 50px;
+    
 }
