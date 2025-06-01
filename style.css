@@ -104,14 +104,25 @@ h3{
 .offer p{
     font-size: 1.3rem;
 }
-#projects{
+#projects {
     display: grid;
-    grid-template-columns: repeat(3,250px);
-    grid-template-rows: repeat(2, 350px);
-    gap: 90px;
-    
-}
-.proj{
-    margin-left: 50px;
-    
-}
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);   
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .proj {
+    background-color: rgba(128, 128, 128, 0.082);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.466);
+    text-align: center;
+  }
+  
+  .proj img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
