@@ -364,6 +364,12 @@ h3{
   }
   
 }
+@media screen and (max-width:450px) {
+  #projects{
+    margin-top: 200px;
+  }
+  
+}
  @media screen and (max-width:375px) {
   #projects{
     margin-top: 270px;
