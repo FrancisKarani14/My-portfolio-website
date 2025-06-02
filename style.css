@@ -284,4 +284,51 @@ h3{
     height: 90vh;
   }
 }
+@media screen and (max-width:786px) {
+  .navigation p a{
+    font-size: 1rem;
+
+  }
+  nav p .Francis, .Karani{
+    font-size:1rem;
+  }
+  .info img{
+    width: 300px;
+    height: 150px;
+  }
+  .info p{
+    font-size: 1.5rem;
+  }
+  .info{
+    height: 100vh;
+  }
+  .services{
+    /* flex-wrap: wrap; */
+    height: 100vh;
+  }
+  .offer p {
+    font-size: 1.5rem;
+  }
+  h3{
+  font-size: 1rem;
+  }
+  form{
+    height: auto;
+  }
+  label{
+    font-size: 1.5rem;
+  }
+  /* .inputfield{
+    height: 15vh;
+  } */
+  input{
+    height: 30px;
+    font-size: 1rem;
+  }
+  textarea{
+    font-size: 1rem;
+  }
+  
+  
+}
  
