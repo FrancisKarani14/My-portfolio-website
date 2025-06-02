@@ -105,6 +105,7 @@ h1{
 }
 .services{
     display: flex;
+    flex-direction: row;
     
     gap: 30px;
     margin-left: 30px;
@@ -215,7 +216,7 @@ nav p{
 
 }
 .info p{
-  font-size: 2.5rem;
+  font-size: auto;
 }
 .info img{
   height: 450px;
@@ -260,7 +261,16 @@ h3{
   
 }
 @media screen and (max-width: 1400px) {
- .info p
+ .info p{
+  font-size: 1.7rem;
+ }
+  
+}
+@media screen and (max-width:1200px) {
+  .info img{
+    width: 500px;
+    height: 300px;
+  }
   
 }
  
