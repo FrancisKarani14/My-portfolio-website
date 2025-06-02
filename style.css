@@ -355,6 +355,21 @@ h3{
   }
  
 }
+@media screen and (max-width:500px) {
+  #projects{
+    margin-top: 110px;
+  }
+  input{
+    font-size: 0.5rem;
+  }
+  
+}
+ @media screen and (max-width:375px) {
+  #projects{
+    margin-top: 270px;
+  } 
+  
+}
 @media screen and (max-width:360px) {
   #projects{
     margin-top: 350px;
@@ -372,4 +387,5 @@ h3{
     font-size: 0.5rem;
   }
 }
+
  
