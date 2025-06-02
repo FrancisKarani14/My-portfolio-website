@@ -138,10 +138,7 @@ h3{
     height: 100%;
     text-align: center;
 }
-.offer p{
-    font-size: 2rem;
-    
-}
+
 #project {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
