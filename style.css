@@ -331,4 +331,28 @@ h3{
   
   
 }
+@media screen and (max-width:576px) {
+  nav{
+    height:30px ;
+  }
+  nav p{
+    display: flex;
+  }
+  .info img{
+    width: 200px;
+    height: 150px;
+  }
+  .info p{
+    font-size: 1rem;
+  }
+  .services{
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  h2{
+    font-size: 1.5rem;
+    margin-top: 26px;
+  }
+ 
+}
  
