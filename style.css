@@ -362,17 +362,13 @@ h3{
   #projects{
     margin-top: 100px;
   }
-  
-}
-@media screen and (max-width:500px) {
+@media screen and (max-width:480px) {
   #projects{
-    margin-top: 110px;
-  }
-  input{
-    font-size: 0.5rem;
+    margin-top: 150px;
   }
   
 }
+
 @media screen and (max-width:450px) {
   #projects{
     margin-top: 200px;
