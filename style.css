@@ -69,7 +69,13 @@ a:hover{
       opacity: 1;
     }
   }
-  
+  .hi{
+    text-align: center;
+    color: white;
+  }
+  p .Francis{
+    font-size: 4rem;
+  }
 .home p{
     color: var(--TEXTCOLOR);
     font-size: 2.5rem;
@@ -204,6 +210,26 @@ h3{
     background-color: red;
     cursor: pointer;
 }
+/* responsiveness */
+/* large screens */
+@media screen and (min-width: 1800px) {
+nav{
+  height: 70px;
+}
+nav p{
+  align-items: center;
 
+}
+.info p{
+  font-size: 2.5rem;
+}
+.info img{
+  height: 450px;
+}
+.info{
+  gap: 30px;
+}
+  
+}
 
  
