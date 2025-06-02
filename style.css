@@ -229,6 +229,12 @@ nav p{
 .info{
   gap: 30px;
 }
+.offer p{
+  font-size: 1.5rem;
+}
+h3{
+  font-size:2.5rem;
+}
   
 }
 
