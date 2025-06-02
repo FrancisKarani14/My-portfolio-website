@@ -375,6 +375,13 @@ h3{
   }
   
 }
+@media screen and (min-width:400px) {
+  
+  #projects{
+    padding-top: 70px;
+  }
+  
+}
  @media screen and (max-width:375px) {
   #projects{
     margin-top: 270px;
@@ -398,5 +405,5 @@ h3{
     font-size: 0.5rem;
   }
 }
-
+}
  
